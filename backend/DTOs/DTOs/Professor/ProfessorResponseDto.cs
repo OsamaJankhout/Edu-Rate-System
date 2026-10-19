@@ -1,0 +1,22 @@
+﻿using System;
+
+namespace eduRateSystem.DTOs.Professor
+{
+    public class ProfessorResponseDto
+    {
+        public int ProfessorId { get; set; }
+        public string FullName { get; set; } = string.Empty;
+        public int UniversityId { get; set; }
+        public string Department { get; set; } = string.Empty;
+        public string Specialization { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; }
+        public string UniversityName { get; set; } = string.Empty;
+        public double OverallRating { get; set; }
+        public double AvgDifficulty { get; set; }
+        public double AvgWorkload { get; set; }
+        public double AvgFriendliness { get; set; }
+        public int WouldTakeAgainPercent { get; set; }
+        public int TotalReviews { get; set; }
+        public string CoursesJson { get; set; } = string.Empty;
+    }
+}
